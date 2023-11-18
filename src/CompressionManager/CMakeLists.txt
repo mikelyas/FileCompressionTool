@@ -1,0 +1,9 @@
+set(COMPRESSION_MANAGER_SOURCES
+    "CompressionManager.cc")
+set(COMPRESSION_MANAGER_HEADERS
+    "CompressionManager.h")
+
+add_library(${COMPRESSION_MANAGER_LIB_NAME} STATIC
+    ${COMPRESSION_MANAGER_SOURCES}
+    ${COMPRESSION_MANAGER_HEADERS})
+target_include_directories(${COMPRESSION_MANAGER_LIB_NAME} PUBLIC "./")
