@@ -1,0 +1,2 @@
+add_subdirectory(CompressionManager)
+add_subdirectory(FileManager)
